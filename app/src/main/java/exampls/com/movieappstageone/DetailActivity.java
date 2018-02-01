@@ -47,7 +47,7 @@ public class DetailActivity extends AppCompatActivity  {
                         }
                     });
             ((TextView) findViewById(R.id.movie_date_tv)).setText(movie.getRealeseDate());
-            ((TextView) findViewById(R.id.movie_vote_avg_tv)).setText(movie.getVote_Average() + " /10");
+            ((TextView) findViewById(R.id.movie_vote_avg_tv)).setText(movie.getVoteAverage() + " /10");
 
 
         } catch (NullPointerException ex) {
